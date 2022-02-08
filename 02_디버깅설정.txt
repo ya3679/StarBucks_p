@@ -1,0 +1,18 @@
+cd C:/Users/ya367/Desktop/김예은/22_2월/02_08_02_깃허브에서내려받기_수정하기_올리기/starBucks_cra_react_src
+
+react_cra_starbucks_pub
+
+https://github.com/ya3679/react_cra_starbucks_pub.git
+
+1.
+git init
+git config user.name "ya3679"
+git config user.email "yaun97929@naver.com"
+
+git remote
+git remote remove origin
+git remote add origin https://github.com/ya3679/react_cra_starbucks_pub.git
+
+git add .
+git comit -m "create-react-app PUBLIC 경로변경 완료"
+git push origin master
